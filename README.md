@@ -26,21 +26,30 @@ The following visualizations illustrate some of the main findings and analytical
 
 
 Example of player tracking data visualization.
+![Ball trajectory during a play.](images/touchdown_ball.png)
+Ball trajectory during a play
+![Trajectories of the players involved in the play.](images/Touchdown_players.png)
+Trajectories of the players involved in the play.
+
 
 
 
 
 Exploratory analysis of player-related features.
+![Gaussian density distributions fitted to the mean y-coordinate (`y_mean`) of NFL players, grouped by positional role.](images/Gaussiana_coordinate.png)
+Gaussian density distributions fitted to the mean y-coordinate (`y_mean`) of NFL players, grouped by positional role.
 ## Database Integration and SQL Queries
 The project also explores the integration of the tracking data into a relational database, enabling structured data storage and retrieval through SQL queries.
 
 This step provides an opportunity to investigate how tracking data can be organized into a database and queried to extract relevant information.
 ## Example SQL Query
 Example of a SQL query used to retrieve information from the database.
+![](images/query.png)
 ## Query Output
 Result returned by the query.
+![](images/query_output.png)
 ## Repository Structure
 - `jupyter notebook/` : Jupyter Notebook containing the exploratory data analysis.
 - `images/` : Selected visualizations and screenshots included in this README.
 ## How to Explore the Project
-The complete analysis is available in the Jupyter Notebook included in this repository. You can browse the notebook directly on GitHub to review the code, visualizations, and analytical process.
+The complete analysis is available in the Jupyter Notebook included in this repository (in italian). You can browse the notebook directly on GitHub to review the code, visualizations, and analytical process.
